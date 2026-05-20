@@ -6,15 +6,15 @@ on:
       - main
 
 jobs:
-  build:
-    name: Build for Android
+  buildAndroid:
+    name: Build Android
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build APK
+      - name: Build Unity Project
         uses: game-ci/unity-builder@v4
         env:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
@@ -22,9 +22,11 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           targetPlatform: Android
+          buildMethod: 
+          androidExportType: androidPackage
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: APK
+          name: AndroidBuild
           path: build
