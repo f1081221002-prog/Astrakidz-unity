@@ -1,0 +1,67 @@
+{"type":"root","options":{
+
+},"size":{"width":1612,"height":720},"children":[{"name":"Petualangan Luar Angkasa","type":"png","options":{
+
+},"offset":{"left":508,"top":41},"size":{"width":591,"height":129},"relativePath":"Petualangan Luar Angkasa","children":[
+
+]},{"name":"Start to Click","type":"group","options":{
+
+},"offset":{"left":568,"top":239},"size":{"width":476,"height":401},"relativePath":"Start to Click","children":[{"name":"KLIK MULAI","type":"png","options":{
+
+},"offset":{"left":568,"top":530},"size":{"width":476,"height":100},"relativePath":"Start to Click/KLIK MULAI","children":[
+
+]},{"name":"Anim_cover_0","type":"png","options":{
+
+},"offset":{"left":715,"top":239},"size":{"width":189,"height":401},"relativePath":"Start to Click/Anim_cover_0","children":[
+
+]}]},{"name":"Sound & Exit","type":"group","options":{
+
+},"offset":{"left":32,"top":620},"size":{"width":261,"height":93},"relativePath":"Sound & Exit","children":[{"name":"Anim_cover_7","type":"png","options":{
+
+},"offset":{"left":32,"top":620},"size":{"width":97,"height":93},"relativePath":"Sound & Exit/Anim_cover_7","children":[
+
+]},{"name":"sound_button","type":"png","options":{
+
+},"offset":{"left":135,"top":639},"size":{"width":66,"height":58},"relativePath":"Sound & Exit/sound_button","children":[
+
+]},{"name":"exit_button","type":"png","options":{
+
+},"offset":{"left":211,"top":634},"size":{"width":66,"height":67},"relativePath":"Sound & Exit/exit_button","children":[
+
+]},{"name":"Rounded Rectangle 1","type":"png","options":{
+
+},"offset":{"left":51,"top":629},"size":{"width":242,"height":64},"relativePath":"Sound & Exit/Rounded Rectangle 1","children":[
+
+]}]},{"name":"Anim","type":"group","options":{
+
+},"offset":{"left":-134,"top":-144},"size":{"width":1746,"height":964},"relativePath":"Anim","children":[{"name":"Anim_cover_1","type":"png","options":{
+
+},"offset":{"left":1298,"top":-144},"size":{"width":314,"height":362},"relativePath":"Anim/Anim_cover_1","children":[
+
+]},{"name":"Anim_cover_2","type":"png","options":{
+
+},"offset":{"left":1359,"top":427},"size":{"width":180,"height":266},"relativePath":"Anim/Anim_cover_2","children":[
+
+]},{"name":"Anim_cover_3","type":"png","options":{
+
+},"offset":{"left":322,"top":561},"size":{"width":47,"height":117},"relativePath":"Anim/Anim_cover_3","children":[
+
+]},{"name":"Anim_cover_4","type":"png","options":{
+
+},"offset":{"left":1437,"top":678},"size":{"width":175,"height":142},"relativePath":"Anim/Anim_cover_4","children":[
+
+]},{"name":"Anim_cover_5","type":"png","options":{
+
+},"offset":{"left":-134,"top":222},"size":{"width":175,"height":142},"relativePath":"Anim/Anim_cover_5","children":[
+
+]},{"name":"Anim_cover_6","type":"png","options":{
+
+},"offset":{"left":76,"top":79},"size":{"width":47,"height":117},"relativePath":"Anim/Anim_cover_6","children":[
+
+]}]},{"name":"Doodle","type":"png","options":{
+
+},"offset":{"left":-17,"top":0},"size":{"width":1788,"height":876},"relativePath":"Doodle","children":[
+
+]},{"name":"Filter Purple","type":"jpg","options":{"jpgQuality":12},"offset":{"left":0,"top":0},"size":{"width":1612,"height":727},"relativePath":"Filter Purple","children":[
+
+]}]}
