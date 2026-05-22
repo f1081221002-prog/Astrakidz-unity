@@ -12,18 +12,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # SWITCH WINDOWS KE IL2CPP
-      - name: Configure Windows IL2CPP
-        uses: game-ci/unity-builder@v4
-        env:
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-        with:
-          targetPlatform: StandaloneWindows64
-          buildMethod: BuildScript.SetWindowsIL2CPP
-
-      # BUILD WINDOWS
       - name: Build Windows Project
         uses: game-ci/unity-builder@v4
         env:
