@@ -1,4 +1,3 @@
 repository "Uji Coba New/Uji Coba New@18968431366638@cloud"
   path "/"
-    br "/main"
-    co "/main"
+    smartbranch "/main"
